@@ -1,4 +1,5 @@
 public class SprinklesDecorator extends Cake {
+    private final Cake baseCake;
     public SprinklesDecorator(Cake cake) {
         super(cake);
     }

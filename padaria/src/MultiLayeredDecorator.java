@@ -1,4 +1,6 @@
 public class MultiLayeredDecorator extends Cake {
+    private final Cake baseCake;
+
     public MultiLayeredDecorator(Cake cake) {
         super(cake);
     }

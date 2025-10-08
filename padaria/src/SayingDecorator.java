@@ -1,4 +1,5 @@
 public class SayingDecorator extends Cake {
+    private final Cake baseCake;
     private String mensagem;
 
     public SayingDecorator(Cake cake, String mensagem) {
