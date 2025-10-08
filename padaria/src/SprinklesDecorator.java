@@ -1,16 +1,17 @@
 public class SprinklesDecorator extends Cake {
     private final Cake baseCake;
-    public SprinklesDecorator(Cake cake) {
-        super(cake);
+
+    public SprinklesDecorator(Cake baseCake) {
+        this.baseCake = baseCake;
     }
 
     @Override
     public String getDescription() {
-        return cake.getDescription() + " with sprinkles";
+        return baseCake.getDescription() + " with sprinkles";
     }
 
     @Override
     public double getCost() {
-        return cake.getCost() + 2.0;
+        return baseCake.getCost() + 2.0;
     }
 }
