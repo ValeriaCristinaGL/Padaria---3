@@ -1,16 +1,16 @@
-public class MultiLayeredDecorator extends BoloDecorator {
-    public MultiLayeredDecorator(Bolo bolo) {
-        super(bolo);
+public class MultiLayeredDecorator extends Cake {
+    public MultiLayeredDecorator(Cake cake) {
+        super(cake);
     }
 
     @Override
-    public String getDescricao() {
-        return "Multi-layered " + bolo.getDescricao();
+    public String getDescription() {
+        return "Multi-layered " + cake.getDescricao();
     }
 
     @Override
-    public double getPreco() {
-        return bolo.getPreco() + 5.0;
+    public double getCost() {
+        return cake.getCost() + 5.0;
     }
 }
 

@@ -1,19 +1,19 @@
-public class SayingDecorator extends BoloDecorator {
+public class SayingDecorator extends Cake {
     private String mensagem;
 
-    public SayingDecorator(Bolo bolo, String mensagem) {
-        super(bolo);
+    public SayingDecorator(Cake cake, String mensagem) {
+        super(cake);
         this.mensagem = mensagem;
     }
 
     @Override
-    public String getDescricao() {
-        return bolo.getDescricao() + " with saying '" + mensagem + "'";
+    public String getDescription() {
+        return cake.getDescription() + " with saying '" + mensagem + "'";
     }
 
     @Override
-    public double getPreco() {
-        return bolo.getPreco(); // sem custo adicional
+    public double getCost() {
+        return cake.getCost(); // sem custo adicional
     }
 }
 

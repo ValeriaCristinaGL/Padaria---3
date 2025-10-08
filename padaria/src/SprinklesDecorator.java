@@ -1,15 +1,15 @@
-public class SprinklesDecorator extends BoloDecorator {
-    public SprinklesDecorator(Bolo bolo) {
-        super(bolo);
+public class SprinklesDecorator extends Cake {
+    public SprinklesDecorator(Cake cake) {
+        super(cake);
     }
 
     @Override
-    public String getDescricao() {
-        return bolo.getDescricao() + " with sprinkles";
+    public String getDescription() {
+        return cake.getDescription() + " with sprinkles";
     }
 
     @Override
-    public double getPreco() {
-        return bolo.getPreco() + 2.0;
+    public double getCost() {
+        return cake.getCost() + 2.0;
     }
 }
