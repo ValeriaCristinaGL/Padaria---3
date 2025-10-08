@@ -13,7 +13,7 @@ public class SayingDecorator extends Cake {
     }
 
     @Override
-    public double getCost() {
+    public int getCost() {
         return baseCake.getCost(); // sem custo adicional
     }
 }

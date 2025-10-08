@@ -11,8 +11,8 @@ public class MultiLayeredDecorator extends Cake {
     }
 
     @Override
-    public double getCost() {
-        return baseCake.getCost() + 5.0;
+    public int getCost() {
+        return baseCake.getCost() + 5;
     }
 }
 
