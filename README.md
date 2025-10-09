@@ -1,5 +1,5 @@
 
-## 🎓 Padrões de Projeto — Decorator
+## 🍰 Questão 3 — Padaria (Decorator)
 
 **Disciplina:** Padrões de Projeto  
 **Autores:** Valéria Cristina e Pedro Victor
@@ -7,10 +7,7 @@
 **Ferramenta de apoio:** Microsoft Copilot  
 **IDE utilizada:** IntelliJ IDEA
 
----
-
-## 🍰 Questão 3 — Padaria (Decorator)
-
+--- 
 ### 🎯 Objetivo da atividade
 Aplicar o padrão de projeto **Decorator** para permitir que bolos sejam personalizados com múltiplas camadas, granulados e dizeres, de forma flexível e escalável.
 
