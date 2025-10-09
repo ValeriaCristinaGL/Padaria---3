@@ -1,5 +1,5 @@
 
-## 🎓 Padrões de Projeto — Decorator e Factory Method
+## 🎓 Padrões de Projeto — Decorator
 
 **Disciplina:** Padrões de Projeto  
 **Autores:** Valéria Cristina e Pedro Victor
