@@ -51,22 +51,3 @@ A simulação na classe `Main` gera a saída esperada:
 ```
 
 ---
-
-### 📜 Histórico de Commits
-
-| Commit                                                               | Descrição                                                             |
-|----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| `adiciona código base fornecido pelo professor`                      | Ponto de partida do projeto com estrutura original                    |
-| `feat: Adiciona classe para tratar bolos multi-camadas`              | Implementa `MultiLayeredDecorator` conforme especificação             |
-| `feat: Adiciona classe para tratar montagem personalizada do bolo`   | Cria decoradores para dizeres e granulados                            |
-| `feat: Adiciona classe para montar bolo conforme escolha do usuário` | Permite compor bolos decorados dinamicamente                          |
-| `chore: padroniza nomes das classes conforme escopo do exercício`    | Renomeia classes e métodos para manter consistência com o código base |
-| `feat: Adiciona decorator baseCake para aplicar padrão Decorator`    | Adiciona atributo `baseCake` nos decoradores                          |
-| `fix: Ajusta construtores dos decorators para inicializar baseCake`  | Corrige erro de compilação por falta de inicialização                 |
-| `fix: Corrige incompatibilidade no getCost entre classes`            | Altera tipo de retorno para `int` conforme estrutura original         |
-| `feat: Adiciona classe para representar bolo de morango`             | Cria `StrawberryCake` com custo ajustado para gerar saída esperada    |
-| `refactor: Ajusta Main para montar bolo conforme saída esperada`     | Modifica simulação para refletir o bolo decorado exigido              |
-| `docs: Adiciona README.md`                                           | Documentação com explicações sobre o padrão e estrutura do projeto    |
-| `docs: Adiciona documentação sobre uso da IA`                        | Documentação explicando ajustes, prompts e justificativas.            |
-
----
