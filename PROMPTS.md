@@ -1,7 +1,6 @@
 ## 📘 Registro de Uso da IA — Projeto Padaria
 
 **Ferramenta utilizada:** Microsoft Copilot  
-**Datas:** 07/10/2025 – 09/10/2025
 
 ---
 
